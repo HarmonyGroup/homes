@@ -6,6 +6,7 @@ import Banner1 from '@/components/website/Banner1';
 import Testimonials from '@/components/website/Testimonials';
 import Extras from '@/components/website/Extras';
 import Extras2 from '@/components/website/Extras2';
+import Listings from '@/components/website/Listings';
 
 const Page = () => {
   return (
@@ -15,6 +16,7 @@ const Page = () => {
       <AboutUs2 />
       {/* <Extras2 /> */}
       <Banner1 />
+      <Listings />
       <Extras />
       <Testimonials />
     </>

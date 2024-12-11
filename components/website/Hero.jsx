@@ -28,7 +28,7 @@ const Hero = () => {
     <section className="relative bg-[url(https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80)] bg-cover bg-center bg-no-repeat">
       <div className="absolute inset-0 bg-[#3C0C64]/75 sm:bg-[#4B0D70]/0 sm:bg-gradient-to-r sm:from-[#3C0C64]/95 sm:to-[#3C0C64]/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
 
-      <div className="relative mx-auto max-w-7xl px-4 py-32 sm:px-6 flex h-[90vh] lg:h-[90vh] items-center lg:px-8">
+      <div className="relative mx-auto max-w-7xl px-4 py-32 sm:px-6 flex h-[90vh] lg:h-[85vh] items-center lg:px-8">
         <div className="max-w-xl text-center sm:text-left">
           <h1 className="text-4xl font-extrabold text-white sm:text-5xl">
             Let us find your
