@@ -39,8 +39,8 @@ const Hero = () => {
           </h1>
 
           <p className="mt-4 max-w-lg text-white sm:text-xl/relaxed">
-            Whether you&apos;re buying, selling, or renting, we turn your real estate
-            goals into reality with ease.
+            Whether you&apos;re buying, selling, or renting, we turn your real
+            estate goals into reality with ease.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4 text-center">
@@ -52,7 +52,8 @@ const Hero = () => {
             </Link>
 
             <Link
-              target="_blank" href={"https://wa.me/+2348182012345/"}
+              target="_blank"
+              href={"https://wa.me/+2348182012345/"}
               className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-yellow-600 shadow focus:outline-none focus:ring sm:w-auto"
             >
               Learn More

@@ -6,6 +6,7 @@ import Ornament1 from "@/assets/ornament-1.png";
 import Ornament2 from "@/assets/ornament-2.png";
 import { GoArrowUpRight } from "react-icons/go";
 import { BsDashLg } from "react-icons/bs";
+import { TbSmartHome } from "react-icons/tb";
 
 const AboutUs1 = () => {
   return (
@@ -62,17 +63,17 @@ const AboutUs1 = () => {
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:items-center md:gap-24">
           <div>
             <div className="max-w-lg md:max-w-none">
-              <div className="flex items-center gap-1.5">
-                <BsDashLg size={22} className="text-gray-400" />
-                <p className="text-xs text-gray-700 ">Find your dream home</p>
+              <div className="inline-flex items-center gap-1.5 bg-[#3C0C64]/5 border border-[#3C0C64]/5 rounded-full px-4 py-2">
+                <TbSmartHome size={15} className="text-[#3C0C64] font-medium" />
+                <p className="text-xs text-[#3C0C64] font-medium">Find your dream home</p>
               </div>
-              <h2 className="text-2xl font-bold text-[#3C0C64] sm:text-3xl mt-5">
+              <h2 className="text-2xl font-bold text-[#3C0C64] sm:text-3xl mt-6">
                 Finding your <span className="text-yellow-500">ideal</span> home{" "}
                 <br className="hidden lg:block" /> should be an easy and{" "}
                 <br className="hidden lg:block" /> enjoyable experience.
               </h2>
 
-              <p className="mt-4 text-gray-700 text-sm md:text-base">
+              <p className="mt-4 text-gray-700 text-sm md:text-sm font-medium">
                 From exploring listings tailored to your needs to navigating the
                 closing process, our team is dedicated to making your
                 home-buying journey as simple and rewarding as possible.
@@ -82,10 +83,10 @@ const AboutUs1 = () => {
               <div className="mt-8 inline-flex">
                 <Link
                   target="_blank" href={"https://wa.me/+2348182012345/"}
-                  className="flex items-center gap-2 text-white text-sm md:text-base font-semibold bg-[#3C0C64] rounded-full px-6 py-2.5 md:py-3"
+                  className="flex items-center gap-2 text-white text-sm md:text-sm font-semibold bg-[#3C0C64] rounded-full px-6 py-2.5 md:py-3"
                 >
                   Learn More
-                  {/* <GoArrowUpRight size={19} /> */}
+                  <GoArrowUpRight size={16} className="mt-0.5" />
                 </Link>
               </div>
             </div>
@@ -94,7 +95,7 @@ const AboutUs1 = () => {
           <div className="relative hidden md:block">
             <img
               src="https://plus.unsplash.com/premium_photo-1670360414483-64e6d9ba9038?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              className="rounded"
+              className="rounded-xl"
               alt="Harmony Homes"
             />
           </div>

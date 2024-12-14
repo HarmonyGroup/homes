@@ -78,7 +78,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t-[0.3px] border-white/35 mt-14 lg:mt-16">
-          <p className="text-white text-center text-sm mt-8 lg:mt-10">copyright &copy; Harmony Homes NG</p>
+          <p className="text-white text-center text-sm mt-8 lg:mt-10">Copyright &copy; Harmony Homes NG</p>
         </div>
         {/* <div className="mt-10">
           <div className="lg:flex items-center gap-2 text-white hidden">

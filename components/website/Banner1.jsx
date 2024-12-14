@@ -16,7 +16,7 @@ const Banner1 = () => {
         alt="harmony homes"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-[#4B0D70]/95 to-[#3C0C64]/40"></div>
-      <div className="w-full max-w-7xl mx-auto px-4 py-16 relative">
+      <div className="w-full max-w-7xl mx-auto px-4 py-14 relative">
         {/* <h1 className="text-center text-white font-bold text-2xl lg:text-4xl">
           Why Choose us?
         </h1>

@@ -1,6 +1,7 @@
 import localFont from "next/font/local";
 import { Aleo, Montserrat, Cormorant_Garamond } from "next/font/google";
 import "../globals.css";
+import "animate.css";
 import Footer from "@/components/website/Footer";
 import Navbar from "@/components/website/Navbar";
 import { AppProvider } from "@/utils/AppContext";
@@ -31,7 +32,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${montserrat.className} antialiased`}>
         <AppProvider>
-          {/* <Header /> */}
+          <Header />
           <Navbar />
           <div>{children}</div>
           <Footer />
