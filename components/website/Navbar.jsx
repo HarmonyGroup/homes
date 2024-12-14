@@ -231,7 +231,7 @@ const Navbar = () => {
             <div className="flex flex-col mt-8">
               <Link
                 href={"/"}
-                className="flex items-center justify-between text-sm font-medium border-b p-4"
+                className="flex items-center justify-between text-sm font-medium border-b px-3 py-4"
                 onClick={closeSidebar}
               >
                 Home
@@ -239,7 +239,7 @@ const Navbar = () => {
               </Link>
               <Link
                 href={"/"}
-                className="flex items-center justify-between text-sm font-medium border-b p-4"
+                className="flex items-center justify-between text-sm font-medium border-b px-3 py-4"
                 onClick={closeSidebar}
               >
                 Listings
@@ -247,7 +247,7 @@ const Navbar = () => {
               </Link>
               <Link
                 href={"/"}
-                className="flex items-center justify-between text-sm font-medium border-b p-4"
+                className="flex items-center justify-between text-sm font-medium border-b px-3 py-4"
                 onClick={closeSidebar}
               >
                 Buy
@@ -255,7 +255,7 @@ const Navbar = () => {
               </Link>
               <Link
                 href={"/"}
-                className="flex items-center justify-between text-sm font-medium border-b p-4"
+                className="flex items-center justify-between text-sm font-medium border-b px-3 py-4"
                 onClick={closeSidebar}
               >
                 Rent
@@ -263,14 +263,14 @@ const Navbar = () => {
               </Link>
               <Link
                 href={"/"}
-                className="flex items-center justify-between text-sm font-medium border-b p-4"
+                className="flex items-center justify-between text-sm font-medium border-b px-3 py-4"
                 onClick={closeSidebar}
               >
                 Commercial
                 <IoIosArrowForward size={15} />
               </Link>
             </div>
-            <div className="mt-8 px-4">
+            <div className="mt-8 px-3">
               
               <p className="text-[11px] text-gray-500 font-medium">
                 Prices, availability, and other details are subject to change
