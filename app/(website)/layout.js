@@ -12,20 +12,20 @@ export const metadata = {
   description: "Providing affordable smart luxury",
 };
 
-const aleo = Aleo({
-  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-});
+// const aleo = Aleo({
+//   subsets: ["latin"],
+//   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+// });
 
 const montserrat = Montserrat({
   subsets: ["vietnamese"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
-const cormorant = Cormorant_Garamond({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"]
-});
+// const cormorant = Cormorant_Garamond({
+//   subsets: ["latin"],
+//   weight: ["300", "400", "500", "600", "700"]
+// });
 
 export default function RootLayout({ children }) {
   return (

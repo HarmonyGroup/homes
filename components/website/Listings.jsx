@@ -5,6 +5,8 @@ import { IoLocationSharp } from "react-icons/io5";
 import { FaBed } from "react-icons/fa6";
 import Link from "next/link";
 import { PiMagnifyingGlass } from "react-icons/pi";
+import { BiBath } from "react-icons/bi";
+import { MdOutlineBed } from "react-icons/md";
 
 const Listings = () => {
   const [fetchinglistings, setFetchingListings] = useState(true);
@@ -60,19 +62,44 @@ const Listings = () => {
             </p>
           </div>
         ) : (
-          <ul className="mt-14 grid gap-12 md:gap-9 sm:grid-cols-2 lg:grid-cols-4">
+          <ul className="mt-14 grid gap-12 md:gap-12 sm:grid-cols-2 lg:grid-cols-3">
             {listings?.map((listing) => (
               <li key={listing?._id} className="relative">
                 <Link
                   href={`listings/${listing?._id}`}
-                  className="group block overflow-hidden"
+                  className="group block overflow-hidden rounded-lg shadow-md"
                 >
                   <img
                     src={listing.images[0]}
                     alt=""
-                    className="h-[220px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[350px] rounded-md overflow-hidden"
+                    className="h-[220px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[250px] rounded-t-md overflow-hidden"
                   />
-                  <div className="relative bg-white pt-3 mt-4 md:mt-5">
+                  <div className="relative p-5">
+                    {/* <span className="text-[#3C0C64] bg-[#3C0C64]/10 text-xs md:text-sm capitalize font-bold rounded-full px-5 py-2">
+                      {listing?.purpose}
+                    </span> */}
+                    {/* <h3 className="text-base font-semibold line-clamp-1">&#8358; Request for price</h3> */}
+                    <h3 className="text-sm font-semibold line-clamp-1">
+                      {listing?.title}
+                    </h3>
+                    <div className="flex items-center gap-4 mt-3">
+                      <div className="flex items-center gap-2">
+                        <MdOutlineBed />
+                        <p className="text-sm">{listing?.bedrooms} bedrooms</p>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <BiBath />
+                        <p className="text-sm">{listing?.bathrooms} bathrooms</p>
+                      </div>
+                    </div>
+                    <div className="flex items-center gap-1.5 mt-3">
+                      <IoLocationSharp />
+                      <span className="text-sm">
+                        {listing?.address}
+                      </span>
+                    </div>
+                  </div>
+                  {/* <div className="relative p-3 mt-4 md:mt-5">
                     <span className="text-[#3C0C64] bg-[#3C0C64]/10 text-xs md:text-sm capitalize font-bold rounded-full px-5 py-2">
                       {listing?.purpose}
                     </span>
@@ -85,7 +112,7 @@ const Listings = () => {
                         {listing?.address}
                       </span>
                     </div>
-                  </div>
+                  </div> */}
                 </Link>
               </li>
             ))}

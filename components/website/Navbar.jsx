@@ -262,11 +262,11 @@ const Navbar = () => {
                 <IoIosArrowForward size={15} />
               </Link>
               <Link
-                href={"/"}
+                href="/abijo-gra-off-plan-project"
                 className="flex items-center justify-between text-sm font-medium border-b px-3 py-4"
                 onClick={closeSidebar}
               >
-                Commercial
+                Off plan
                 <IoIosArrowForward size={15} />
               </Link>
             </div>
@@ -299,7 +299,7 @@ const Navbar = () => {
           <span className="text-gray-500 text-xs">Affordable luxury...</span>
         </div>
       </Link>
-      <ul className="md:flex items-center gap-12 text-sm font-semibold hidden">
+      <ul className="md:flex items-center gap-12 text-xs font-semibold hidden">
         {/* <li>
                 <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Home </a>
               </li> */}
@@ -333,9 +333,9 @@ const Navbar = () => {
         </li>
 
         <li>
-          <Link className="transition" href="/listings">
+          <Link className="transition" href="/abijo-gra-off-plan-project">
             {" "}
-            Commercial{" "}
+            Off plan{" "}
           </Link>
         </li>
       </ul>
